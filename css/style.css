@@ -1,0 +1,122 @@
+body {
+    background-color: rgba(187, 210, 225, 0.479);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.747);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* body *{
+    border: solid black 2.5px;
+} */
+header {
+    
+    border: solid rgba(255, 255, 255, 0)2.5px;
+    font-size: max(2.5vw, 20px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: rgba(187, 210, 225, 0.856);
+    margin: 0px;
+}
+.tete {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+#div-body {
+    padding-left: 10%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#body-contenu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#div-aside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+#headmg {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+#presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+#presentation-contenu {
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    justify-content: center;
+}
+#presentation-text {
+    font-size: max(1.5vw, 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: solid rgba(187, 210, 225, 0.856) 2.5px;
+}
+#body-contenu p {
+    font-size: max(1.25vw, 15px);
+    text-align: justify;
+    margin-top: 5%;
+    background-color:rgba(187, 210, 225, 0.856);
+    padding: 5%;
+}
+h2 {
+    margin-top: 10%;
+    font-size: max(2.5vw, 20px);
+}
+#presentation-img {
+    display: flex;
+    object-fit: contain;
+    width: 30%;
+    align-items: flex-start;
+}
+#presentation-img img {
+    min-width: 200px;
+    object-fit: cover;
+    border: solid rgba(187, 210, 225, 0.856) 2.5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#div-text {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#parcours {
+    width: 70%;
+}
+#parcours ul {
+    font-size: max(1.5vw, 15px);
+} 
+#img-aside {
+    width: 20%;
+    right: 20px;
+    object-fit: cover;
+    position: fixed;
+    bottom: 0;
+}
+@media (min-width: 992px) {
+    body {
+        width: 100%;
+    }
+}
